@@ -1,0 +1,12 @@
+
+$material-icons-font-path : "fonts/";
+$bootstrap-icons-font-dir : "fonts";
+$bootstrap-icons-font-src : url("fonts/bootstrap-icons.woff2") format("woff2");
+
+@use '@fortawesome/fontawesome-free/scss/variables' as fa with ($font-path: "fonts");
+
+
+@import 'bootstrap-icons/font/bootstrap-icons';
+@import '@fortawesome/fontawesome-free/scss/fontawesome';
+@import '@fortawesome/fontawesome-free/scss/solid';
+@import 'material-icons/iconfont/filled';
